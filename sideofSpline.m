@@ -3,7 +3,7 @@
 % linearization of the spline with the same y-value as the point and
 % a line connecting the point with the linearization. The sign of this quantity 
 % can be compared to a known point to determine which side of the spline 
-% the points lie on. Magshift shifts the spline horizontally to enable
+% the points lie on. mag_shift shifts the spline horizontally to enable
 % Ha detection via the method of Milone2018.
 
 function det = sideofSpline(bex,bey,spline,mag_shift);
